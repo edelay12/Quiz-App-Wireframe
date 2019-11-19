@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="description" content="A multiple choice quiz over javascript" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Abel|Roboto:100,300&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+
+    <title>Javascript Quiz - By: Evan Miller</title>
+  </head>
+  <body>
+    <header id="topH">
+      <h1 class="headerLabel">Javascript Quiz</h1>
+      <nav class="score-prog _hide">
+        <label for="current-question" id="progId">Question: </label>
+        <label for="score" id="scoreId">Score</label>
+      </nav>
+    </header>
+    <div class="focus">
+      <main class="startScreen" role="main">
+        <img
+          class="mainImg"
+          rel="Javascript image"
+          src="https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/205/square_280/javascriptlang.png"
+        />
+        <h3 class="ff">Test your knowledge</h3>
+        <button id="startButton">Lets get started</button>
+        <div class="focus">
+  <form id=quizForm>
+         <fieldset class="mainQarea">
+         <div class= "qHTML"> </div>
+       <label for="question" class="mainQ"> Question</label></br><hr> 
+  <div class="answerHTML"></div>
+        <input type="radio" name="qs" id="${item}_q" value="${item}" tabindex='1'>
+                    
+        <label for="${item}_q" id="qLabel" class="qL" >Choice </label></br>
+          <input type="radio" name="qs" id="${item}_q" value="${item}" tabindex='1'>
+        <label for="${item}_q" id="qLabel" class="qL" >Choice </label></br>
+       <input type="radio" name="qs" id="${item}_q" value="${item}" tabindex='1'>
+    <label for="${item}_q" id="qLabel" class="qL" >Choice </label></br>
+  <input type="radio" name="qs" id="${item}_q" value="${item}" tabindex='1'>
+                <label for="${item}_q" id="qLabel" class="qL" >Choice </label></br>
+                            <button type="submit" class="submitButton" value="Submit">Submit</button>
+                            <button type="button" class="nextButton"  id="nextButton" value="Submit">Next</button>       
+                        </fieldset>      
+                </form>
+    </div>
+
+    <div class="focus">
+            <section class="results_hide">
+                    <h3 class="ff">Your score was 'score / 15'</h3>
+                    <button id="startButton" class="retake">Retake</button>
+            </section>
+</div>
+  </body>
+</html>
