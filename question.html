@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="focus">
+        <form id=quizForm>
+               <fieldset class="mainQarea">
+               <div class= "qHTML"> </div>
+             <label for="question" class="mainQ"> Question</label></br><hr> 
+        <div class="answerHTML"></div>
+              <input type="radio" name="qs" id="${item}_q" value="${item}" tabindex='1'>
+                          
+              <label for="${item}_q" id="qLabel" class="qL" >Choice </label></br>
+                <input type="radio" name="qs" id="${item}_q" value="${item}" tabindex='1'>
+              <label for="${item}_q" id="qLabel" class="qL" >Choice </label></br>
+             <input type="radio" name="qs" id="${item}_q" value="${item}" tabindex='1'>
+          <label for="${item}_q" id="qLabel" class="qL" >Choice </label></br>
+        <input type="radio" name="qs" id="${item}_q" value="${item}" tabindex='1'>
+                      <label for="${item}_q" id="qLabel" class="qL" >Choice </label></br>
+                                  <button type="submit" class="submitButton" value="Submit" onclick="window.location.href='/results.html'">Submit</button>
+                                  <button type="button" class="nextButton"  id="nextButton" value="Submit" onclick="window.location.href='/results.html'">Next</button>       
+                              </fieldset>      
+                      </form>
+          </div>
+</body>
+</html>

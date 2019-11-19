@@ -29,33 +29,8 @@
           src="https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/205/square_280/javascriptlang.png"
         />
         <h3 class="ff">Test your knowledge</h3>
-        <button id="startButton">Lets get started</button>
-        <div class="focus">
-  <form id=quizForm>
-         <fieldset class="mainQarea">
-         <div class= "qHTML"> </div>
-       <label for="question" class="mainQ"> Question</label></br><hr> 
-  <div class="answerHTML"></div>
-        <input type="radio" name="qs" id="${item}_q" value="${item}" tabindex='1'>
-                    
-        <label for="${item}_q" id="qLabel" class="qL" >Choice </label></br>
-          <input type="radio" name="qs" id="${item}_q" value="${item}" tabindex='1'>
-        <label for="${item}_q" id="qLabel" class="qL" >Choice </label></br>
-       <input type="radio" name="qs" id="${item}_q" value="${item}" tabindex='1'>
-    <label for="${item}_q" id="qLabel" class="qL" >Choice </label></br>
-  <input type="radio" name="qs" id="${item}_q" value="${item}" tabindex='1'>
-                <label for="${item}_q" id="qLabel" class="qL" >Choice </label></br>
-                            <button type="submit" class="submitButton" value="Submit">Submit</button>
-                            <button type="button" class="nextButton"  id="nextButton" value="Submit">Next</button>       
-                        </fieldset>      
-                </form>
+        <button id="startButton" onclick="window.location.href='/question.html'">Lets get started</button>
+       </main>
     </div>
-
-    <div class="focus">
-            <section class="results_hide">
-                    <h3 class="ff">Your score was 'score / 15'</h3>
-                    <button id="startButton" class="retake">Retake</button>
-            </section>
-</div>
   </body>
 </html>
